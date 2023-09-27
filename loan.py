@@ -2,12 +2,12 @@
 
 # First, ask for a rating from 1–10 on the following:
 
-loanRating = float(input("On a Rating of 1 - 10, How large is the loan?: "))
-creditHistoryRating = float(
+loanRating = int(input("On a Rating of 1 - 10, How large is the loan?: "))
+creditHistoryRating = int(
     input("On a Rating of 1 - 10, How good is your credit history?: "))
-incomeRating = float(
+incomeRating = int(
     input("On a Rating of 1 - 10, How high is your income?: "))
-downPaymentRating = float(
+downPaymentRating = int(
     input("On a Rating of 1 - 10, How large is your down payment?: "))
 
 # First, check if the loan size is at least 5. If it is, use the following rules: DONE
