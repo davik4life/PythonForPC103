@@ -31,11 +31,11 @@ letter = ""
 gradePercentage = int(input("Enter your Grade Percentage: "))
 if gradePercentage >= 90:
     letter = "A"
-elif gradePercentage < 90 and gradePercentage >= 80:
+elif gradePercentage >= 80:
     letter = "B"
-elif gradePercentage < 80 and gradePercentage >= 70:
+elif gradePercentage >= 70:
     letter = "C"
-elif gradePercentage < 70 and gradePercentage >= 60:
+elif gradePercentage >= 60:
     letter = "D"
 else:
     letter = "F"
