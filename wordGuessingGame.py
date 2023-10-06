@@ -7,5 +7,5 @@ while secretWord != guessWord:
     if secretWord != guessWord:
         print("Your guess was not correct.")
     else:
-        print("Congratulations! You guessed it")
+        print("Congratulations! You guessed it!")
         print(f"It took you {guessCount} guess(es)")
