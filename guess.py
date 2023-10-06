@@ -4,13 +4,13 @@ import random
 
 # randNum = int(input("Pls enter a magic number between 1 - 10: "))
 randNum = random.randint(1, 100)
-youGuess = int(input("What is your guess? "))
+youGuess = 0
 
 while randNum != youGuess:
+    youGuess = int(input("What is your guess? "))
     if randNum > youGuess:
         print("Guess higher.")
-        youGuess = int(input("What is your guess? "))
-    else:
+    elif randNum < youGuess:
         print("Guess lower.")
-        youGuess = int(input("What is your guess? "))
-print("You guessed it.")
+    else:
+        print("You guessed it.")
