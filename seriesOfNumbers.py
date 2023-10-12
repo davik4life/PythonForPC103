@@ -8,6 +8,9 @@ largestNumber = 0
 while keepAsking:
     numberEntries = int(
         input("Enter a list of numbers, type 0 when finished.: "))
+    if numberEntries < 0:
+        print("Only positive numbers are allowed.")
+        break
     if numberEntries != 0:
         numbers.append(numberEntries)
         sumOfNum += numberEntries
