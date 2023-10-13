@@ -1,3 +1,9 @@
+# I added options to manage the errors whould incase they
+# do not select from the menu items number. and
+# also made it possible to choose to quit or
+# continue the game after making such error
+
+
 itemNames = ["Add item", "View cart", "Remove item", "Compute total", "Quit"]
 itemPrice = 0
 itemPrices = []
